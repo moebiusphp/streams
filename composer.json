@@ -1,0 +1,27 @@
+{
+    "name": "moebius/streams",
+    "description": "Evented and asynchronous API for streaming data",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Moebius\\Streams\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frode Børli",
+            "email": "frode@ennerd.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/http-message": "^1.0",
+        "moebius/events": "^1.0",
+        "charm/testing": "^1.1",
+        "moebius/coroutine": "^1.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/charm-testing"
+    }
+}
